@@ -1,0 +1,47 @@
+To create a GUI, object-oriented languages, including Java, use the following key concepts:
+1. components,
+2. Containers,
+3. Layout Managers,
+4. Events,
+5. Listeners,
+6. Inheritance,
+
+Java AWT Tutorial
+Java AWT (Abstract Window Toolkit) is an API to develop GUI or window-based applications in java.
+It components are platform-dependent i.e. components are displayed according to the view of operating system. AWT is heavywright i.e. its components are using the resources of OS.
+it's package provides classes for QWT api such as TextField, Label, TextArea, RadioButton, CheckBox, Choice, List etc.
+
+
+AWT packages
+it's huge! it consists of 12 packages of 370 classes (Swing is even bigger, with 18 packages of 737 classes  as of JDK 8). Fortunately,only 2 packages-java.awt and java.awt.event-are commonly-used.
+
+The java.awt package contains the core AWT graphics classes:
+1. GUI component classes, such as Button, textField, and Label
+
+Java Swing Tutorial
+Java Swing tutorial is a part of Java Foundation classes(JFC) that is used to create window-based applications. it is built on the top of awt(Abstract windowing toolkit) API and entirely written in java.
+it's provides javax.swing package for java swing API such as JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMEnu, JColorChooser etc.
+
+
+
+Jlabel
+example:
+
+import javax.swing.JLabel;
+import javax.swing.JFrame;
+
+public class ExampleJLable{
+public static void main(string[] args){
+
+JLabel lable = new JLable("A very simpler text lable);
+
+JFrame frame = new JFrame;
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+frame.getContentPane().add(label);
+frame.pack();
+frame.setVisble(true);
+}
+}
+
+JBUTTON 
+
